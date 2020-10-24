@@ -55,3 +55,7 @@ button{
     color: white;
     padding: 8px; 
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}

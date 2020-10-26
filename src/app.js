@@ -81,14 +81,14 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
   res.render('error', {
     title: 'Error',
-    errorText: 'Help article not found',
+    errorText: '😥 Sorry. Help article not found.',
   });
 });
 
 app.get('*', (req, res) => {
   res.render('error', {
     title: 'Error',
-    errorText: 'Page not found',
+    errorText: '😥 Page not found.',
   });
 });
 

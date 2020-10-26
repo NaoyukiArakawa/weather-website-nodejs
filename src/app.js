@@ -28,15 +28,14 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about', {
-    title: 'About Me',
+    title: 'About This Project',
   });
 });
 
 app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Help',
-    name: 'Naoyuki',
-    text: 'This is our help. Below you can find each help articles.',
+    text: 'This is our help page. Below you can find each help articles...',
   });
 });
 

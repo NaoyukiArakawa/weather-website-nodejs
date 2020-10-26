@@ -8,10 +8,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    line-height: 1.7;
 }
 
 .main-content {
     flex-grow: 1;
+}
+
+.main-content a {
+    text-decoration: none
 }
 
 header {
@@ -39,6 +45,7 @@ header a{
 
 .portrait {
     width: 250px;
+    border-radius: 25% 10%;
 }
 
 input {

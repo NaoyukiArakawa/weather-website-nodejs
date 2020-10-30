@@ -49,7 +49,15 @@ header a{
     text-decoration: none;
 }
 
-.portrait {
+.about-item{
+    display: block;
+}
+
+.about-sub{ 
+    text-align: center;
+}
+
+.about-portrait {
     width: 250px;
     border-radius: 25% 10%;
 }
